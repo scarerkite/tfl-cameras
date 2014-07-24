@@ -18,6 +18,8 @@ $(function(){
       console.log("Clicked", camera.id)
       infoWindow.setContent("<img src='http://www.tfl.gov.uk/tfl/livetravelnews/trafficcams/cctv/"+camera.file+"'><p>"+camera.location+"("+camera.postcode+")</p>");
       infoWindow.open(map,marker);
+      map.setCenter(marker.getPosition());
+      map.panBy(0,-200);
     });
 
   }

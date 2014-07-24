@@ -5990,3 +5990,392 @@ Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:00:06 +0100
 Processing by CamerasController#index as JSON
   [1m[36mCamera Load (4.6ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
 Completed 200 OK in 241.7ms (Views: 235.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:16:51 +0100
+Connecting to database specified by database.yml
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (3.0ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (193.7ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (7ms)  (pid 2265)
+Completed 200 OK in 293.1ms (Views: 229.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Served asset /underscore.js - 304 Not Modified (2ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:16:52 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (5.4ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 276.6ms (Views: 269.0ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (2.7ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (197.1ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 213.8ms (Views: 210.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:17:32 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (5.0ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 290.2ms (Views: 283.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (2.9ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (208.7ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (3ms)  (pid 2265)
+Completed 200 OK in 256.4ms (Views: 253.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:18:30 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (4.1ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 286.3ms (Views: 280.6ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (2.6ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (191.8ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 232.2ms (Views: 229.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:20:15 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (4.3ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 286.6ms (Views: 281.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (3.1ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (184.2ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 200.2ms (Views: 196.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:25:51 +0100
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:25:52 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (7.9ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 312.2ms (Views: 302.6ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (5.0ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (213.4ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (3ms)  (pid 2265)
+Completed 200 OK in 253.1ms (Views: 247.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Served asset /script.js - 200 OK (1ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:26:08 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (5.4ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 256.1ms (Views: 249.3ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (3.8ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (181.6ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 198.3ms (Views: 194.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:26:52 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (5.1ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 324.4ms (Views: 318.1ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:27:05 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (4.4ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (162.2ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 179.2ms (Views: 174.2ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:27:06 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (3.3ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 264.0ms (Views: 259.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:27:16 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (2.9ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (154.0ms)
+Compiled script.js  (0ms)  (pid 2265)
+Compiled application.js  (2ms)  (pid 2265)
+Completed 200 OK in 171.4ms (Views: 168.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /script.js - 200 OK (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:27:17 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (5.2ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 242.2ms (Views: 235.6ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-07-24 16:27:33 +0100
+Processing by CamerasController#index as HTML
+  [1m[36mCamera Load (3.0ms)[0m  [1mSELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'[0m
+  Rendered cameras/index.html.haml within layouts/application (262.2ms)
+Completed 200 OK in 266.2ms (Views: 263.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/script.js?body=1" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Served asset /script.js - 304 Not Modified (0ms)
+
+
+Started GET "/cameras" for 127.0.0.1 at 2014-07-24 16:27:34 +0100
+Processing by CamerasController#index as JSON
+  [1m[35mCamera Load (2.9ms)[0m  SELECT "cameras".* FROM "cameras" WHERE "cameras"."available" = 't'
+Completed 200 OK in 235.7ms (Views: 231.6ms | ActiveRecord: 2.9ms)
